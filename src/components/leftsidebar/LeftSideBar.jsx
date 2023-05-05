@@ -12,15 +12,15 @@ export default function LeftSideBar() {
 
             <div className="links">
               <ul>
-                <li> <Link> Home </Link> </li>
+                <li> <Link><i className="fa-solid fa-house"></i> Home </Link> </li>
                 <li> <Link><i className="fa-solid fa-hashtag"></i> Explore </Link> </li>
-                <li> <Link> Communities </Link> </li>
-                <li> <Link> Notifications </Link> </li>
-                <li> <Link> Messages </Link> </li>
-                <li> <Link> Bookmarks </Link> </li>
-                <li> <Link> Twitter Blue </Link> </li>
-                <li> <Link> Profile </Link> </li>
-                <li> <Link> More </Link> </li>
+                <li> <Link><i className="fa-solid fa-user-group"></i> Communities </Link> </li>
+                <li> <Link><i className="fa-regular fa-bell"></i> Notifications </Link> </li>
+                <li> <Link><i className="fa-regular fa-envelope"></i> Messages </Link> </li>
+                <li> <Link><i className="fa-regular fa-bookmark"></i> Bookmarks </Link> </li>
+                <li> <Link><i className="fa-brands fa-square-twitter"></i> Twitter Blue </Link> </li>
+                <li> <Link><i className="fa-regular fa-user"></i> Profile </Link> </li>
+                <li> <Link><i className="fa-solid fa-ellipsis"></i> More </Link> </li>
               </ul>
             </div>
 
@@ -34,7 +34,7 @@ export default function LeftSideBar() {
               </div>
 
               <div className="icon">
-                  i
+                <i className="fa-solid fa-ellipsis"></i>
               </div>
             </div>
         </div>

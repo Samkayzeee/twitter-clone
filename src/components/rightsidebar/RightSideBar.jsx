@@ -2,6 +2,17 @@ import './RightSideBar.scss';
 
 export default function RightSideBar() {
   return (
-    <div>RightSideBar</div>
+    <>
+      <div className="main-rightsidebar">
+        <form action="">
+          <input type="search" placeholder='Search Twitter' />
+        </form>
+
+        <div className="trends">
+            
+        </div>
+
+      </div>
+    </>
   )
 }

@@ -4,6 +4,7 @@ import ReactDOM from 'react-dom/client'
 import './index.scss'
 import { RouterProvider, createBrowserRouter } from 'react-router-dom'
 import Home from './pages/home/Home.jsx'
+import '@fortawesome/fontawesome-free/css/all.min.css';
 
 const router = createBrowserRouter([
   {path:'/', element: <Home />}
