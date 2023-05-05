@@ -1,0 +1,16 @@
+.main{
+    display: flex;
+    position: relative;
+    .lefisidebar{
+        width: 30%;
+        border: solid;
+    }
+    .content{
+        width: 40%;
+        border: solid;
+    }
+    .rightsidebar{
+        width: 30%;
+        border: solid;
+    }
+}
