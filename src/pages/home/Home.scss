@@ -3,13 +3,26 @@
     .lefisidebar{
         width: 25%;
         border: solid;
+        position: fixed;
+        top: 0;
+        height: 100vh;
+        overflow: scroll;
     }
-    .content{
-        width: 45%;
-        border: solid;
+    .together{
+        width: 75%;
+        position: absolute;
+        right: 0;
+        display: flex;
+
+        .content{
+            width: 60%;
+            border: solid;
+    
+        }
+        .rightsidebar{
+            width: 40%;
+            border: solid;
+        }
     }
-    .rightsidebar{
-        width: 30%;
-        border: solid;
-    }
+    
 }

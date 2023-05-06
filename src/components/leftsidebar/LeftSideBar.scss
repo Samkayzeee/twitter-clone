@@ -1,8 +1,5 @@
 .main-leftsidebar{
     padding: 3% 10%;
-    position: relative;
-    top: 0;
-    overflow-y: scroll;
     .logo{
         a{
             border: none;
@@ -64,6 +61,7 @@
         font-weight: 500;
         cursor: pointer;
         margin: 3% 0;
+        box-shadow: 0 0 40px rgba(177, 177, 177, 0.5);
         transition: all 0.3s ease-in-out;
 
         &:hover{

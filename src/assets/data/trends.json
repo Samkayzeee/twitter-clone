@@ -1,0 +1,62 @@
+[
+    {
+        "title":"JavaScript",
+        "trending": "Technology . Trending",
+        "tweets": "12.5k",
+        "id": 1
+    },
+    {
+        "title": "Be My WIfe",
+        "trending": "Trending in Nigeria",
+        "tweets": "13.1k",
+        "id": 2
+    },
+    {
+        "title": "React",
+        "trending": "Technology . Trending",
+        "tweets": "48.8k",
+        "id": 3
+    },
+    {
+        "title": "Opay",
+        "trending": "Trending in Nigeria",
+        "tweets" : "22.9k",
+        "id": 4
+    },
+    {
+        "title": "Wande",
+        "trending": "Trending in Nigeria",
+        "tweets": "12.5k",
+        "id": 5
+    },
+    {
+        "title": "Ronaldo",
+        "trending": "Sports . Trending",
+        "tweets": "1M",
+        "id": 6
+    },
+    {
+        "title": "Napoli",
+        "trending": "Sports . Trending",
+        "tweets": "200k",
+        "id": 7
+    },
+    {
+        "title": "Victor Osimhen",
+        "trending": "SSC Napoli . Trending",
+        "tweets": "200k",
+        "id": 8
+    },
+    {
+        "title": "React",
+        "trending": "Technology . Trending",
+        "tweets": "48.9k",
+        "id": 9
+    },
+    {
+        "title": "Piers Morgan",
+        "trending": "Entertainment . Trending",
+        "tweets": "10.3k",
+        "id": 10
+    }
+]

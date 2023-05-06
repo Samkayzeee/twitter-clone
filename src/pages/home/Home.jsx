@@ -10,12 +10,14 @@ const Home = () => {
                     <LeftSideBar />
                 </div>
 
-                <div className="content">
-                    This is content
-                </div>
+                <div className="together">
+                    <div className="content">
+                        This is content
+                    </div>
 
-                <div className="rightsidebar">
-                    <RightSideBar />
+                    <div className="rightsidebar">
+                        <RightSideBar />
+                    </div>
                 </div>
             </main>
         </>
