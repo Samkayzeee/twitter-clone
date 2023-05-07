@@ -1,0 +1,23 @@
+[
+    {
+        "title": "Davido",
+        "handle": "davido",
+        "verified": true,
+        "id" :1,
+        "img": "../images/follow/davido_album.jpg"
+    },
+    {
+        "title": "capt BLACK.",
+        "handle": "th_saleem",
+        "verified": false,
+        "id": 2,
+        "img": "../images/follow/capt_black.jpg"
+    },
+    {
+        "title": "Santiago",
+        "handle": "svpino",
+        "verified": true,
+        "id": 3,
+        "img": "../images/follow/santiago.jpg"
+    }
+]

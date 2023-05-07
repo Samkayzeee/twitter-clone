@@ -2,11 +2,10 @@
     display: flex;
     .lefisidebar{
         width: 25%;
-        border: solid;
         position: fixed;
         top: 0;
         height: 100vh;
-        overflow: scroll;
+        overflow-y: scroll;
     }
     .together{
         width: 75%;
@@ -16,12 +15,14 @@
 
         .content{
             width: 60%;
-            border: solid;
+            border: solid 1px rgb(223, 239, 249);
+            border-top: none;
     
         }
         .rightsidebar{
             width: 40%;
-            border: solid;
+            position: sticky;
+            bottom: 0;
         }
     }
     

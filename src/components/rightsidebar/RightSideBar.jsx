@@ -1,5 +1,7 @@
 import './RightSideBar.scss';
 import trending from '../../assets/data/trends.json';
+import follow from '../../assets/data/follow.json';
+import { Link } from 'react-router-dom';
 
 export default function RightSideBar() {
   return (
@@ -27,6 +29,44 @@ export default function RightSideBar() {
                 )
               })
             }
+            <Link to={'/'}>Show more</Link>
+        </div>
+
+        <div className="follow">
+            <h2>Who to follow</h2>
+            {
+              follow.map((new_follow) => {
+                return (
+                  <div className="main-follow" key={new_follow.id}>
+                      <div className="main-content">
+                        <img src={new_follow.img} alt="Profile Pic" />
+                        <div className="profile-content">
+                          <h5>{new_follow.title}</h5>
+                          <p>@{new_follow.handle}</p>
+                        </div>
+                      </div>
+
+                      <button>Follow</button>
+                  </div>
+                )
+              })
+            }
+            <Link to={'/'}>Show more</Link>
+        </div>
+
+        <div className="footer">
+          <div className="first">
+            <Link to={'/'}>Terms of Service</Link>
+            <Link to={'/'}>Privacy Policy</Link>
+            <Link to={'/'}>Cookie Policy</Link>
+          </div>
+
+          <div className="second">
+            <Link to={'/'}>Accessibility</Link>
+            <Link to={'/'}>Ads info</Link>
+            <Link to={'/'}>More...</Link>
+            <span><i className="fa-regular fa-copyright"></i> 2023 X Corp.</span>
+          </div>
         </div>
 
       </div>
