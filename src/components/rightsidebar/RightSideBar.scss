@@ -1,5 +1,5 @@
 .main-rightsidebar{
-    padding: 0% 5% 5% 5%;
+    padding: 0% 5% 10% 5%;
     form{
         position: relative;
         position: sticky;
@@ -156,8 +156,11 @@
                 font-size: 13px;
                 text-decoration: none;
                 color: black;
-                opacity: 0.9;
+                opacity: 0.8;
                 margin-right: 15px;
+                &:hover{
+                    text-decoration: underline;
+                }
             }
             span{
                 font-size: 12px;
