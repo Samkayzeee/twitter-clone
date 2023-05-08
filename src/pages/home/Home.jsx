@@ -1,6 +1,7 @@
 import './Home.scss';
 import LeftSideBar from '../../components/leftsidebar/LeftSideBar';
 import RightSideBar from '../../components/rightsidebar/RightSideBar';
+import Content from '../../components/main_content/Content';
 
 const Home = () => {
     return ( 
@@ -12,7 +13,7 @@ const Home = () => {
 
                 <div className="together">
                     <div className="content">
-                        This is content
+                        <Content />
                     </div>
 
                     <div className="rightsidebar">

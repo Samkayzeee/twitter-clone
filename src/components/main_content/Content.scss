@@ -1,0 +1,43 @@
+.main-contents{
+    .links{
+        position: sticky;
+        top: 0;
+        background-color: rgb(255, 255, 255);
+        background-color: rgba(255, 255, 255, 0.8);
+        -webkit-backdrop-filter: blur(10px);
+        backdrop-filter: blur(10px);
+        h2{
+            margin: 3%;
+            font-size: 20px;
+        }
+        div{
+            display: flex;
+            a{
+                width: 50%;
+                border: none;
+                display: inline-block;
+                text-align: center;
+                text-decoration: none;
+                color: black;
+                padding-top: 15px;
+                transition: all 0.3s ease-in-out;
+                &:hover{
+                    background: rgb(236, 236, 236);
+                }
+                &:first-child{
+                   p{
+                        border-bottom: solid 3px rgb(29, 161, 242);
+                        font-weight: 600;
+                   }
+                }
+                p{
+                    padding-bottom: 10px;
+                    width: -moz-fit-content;
+                    width: fit-content;
+                    text-align: center;
+                    margin: auto;
+                }
+            }
+        }
+    }
+}
