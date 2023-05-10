@@ -12,6 +12,10 @@ const Content = () => {
                         <Link to={'/'}> <p>Following</p> </Link>
                     </div>
                 </div>
+
+                <div className="search">
+                    
+                </div>
             </div>
         </>
      );

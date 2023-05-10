@@ -1,11 +1,15 @@
 .main-contents{
     .links{
+        position: relative;
         position: sticky;
         top: 0;
+        z-index: +3;
         background-color: rgb(255, 255, 255);
         background-color: rgba(255, 255, 255, 0.8);
         -webkit-backdrop-filter: blur(10px);
         backdrop-filter: blur(10px);
+        border-bottom: solid 1px rgb(223, 239, 249);
+
         h2{
             margin: 3%;
             font-size: 20px;
