@@ -44,4 +44,21 @@
             }
         }
     }
+    .search{
+        display: flex;
+        padding: 2% 0 2%;
+        // border: solid;
+        img{
+            width: 45px;
+            height: 45px;
+            border-radius: 50%;
+        }
+        .main-search{
+            // border: solid;
+            width: 100%;
+            input{
+                width: 100%;
+            }
+        }
+    }
 }

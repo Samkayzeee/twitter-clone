@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 import './Content.scss';
+import profile_pic from '../../assets/profile_pic.jpeg';
 
 const Content = () => {
     return ( 
@@ -14,7 +15,17 @@ const Content = () => {
                 </div>
 
                 <div className="search">
-                    
+                <img src={profile_pic} alt="profile_pic" />
+                
+                    <div className="main-search">
+                        <input type="text" placeholder='What is Happening?'/>
+                        <div className="links">
+                            <div className="main-links">
+
+                            </div>
+                            <button>Tweet</button>
+                        </div>
+                    </div>
                 </div>
             </div>
         </>
