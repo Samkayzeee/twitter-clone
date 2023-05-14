@@ -69,7 +69,7 @@
                     color: black;
                     opacity: 0.8;
                 }
-            }
+            } 
             .links{
                 display: flex;
                 justify-content: space-between;
@@ -78,10 +78,24 @@
                 padding: 2% 2% 2% 0;
                 align-items: center;
                 .main-links{
-                    i,span{
-                        margin-right: 10px;
+                    i{
                         color: rgb(29, 161, 242);
                         font-size: 15px;
+                        padding: 12px;
+                        border: none;
+                        border-radius: 50%;
+                        transition: all 0.3s ease-in-out;
+                        cursor: pointer;
+                        &:hover{
+                            background: rgb(223, 239, 249);
+                        }
+                        &:last-child{
+                            opacity: 0.5;
+                            cursor: default;
+                            &:hover{
+                                background: none;
+                            }
+                        }
                     }
                 }
                 button{
@@ -93,6 +107,21 @@
                     color: white;
                     background: rgb(29, 161, 242);
                     opacity: 0.6;
+                }
+            }
+        }
+    }
+    .posts{
+        // border: solid;
+        .main-post{
+            border: solid;
+            display: flex;
+            .profile-pic{
+                width: 10%;
+                img{
+                    width: 45px;
+                    height: 45px;
+                    border-radius: 50%;
                 }
             }
         }

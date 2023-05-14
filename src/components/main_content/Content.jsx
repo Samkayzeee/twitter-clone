@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom';
 import './Content.scss';
 import profile_pic from '../../assets/profile_pic.jpeg';
+import posts from "../../assets/data/posts.json";
 
 const Content = () => {
     return ( 
@@ -22,16 +23,33 @@ const Content = () => {
                         <div className="links">
                             <div className="main-links">
                                 <i className="fa-regular fa-image"></i>
-                                {/* <i className="fa-sharp fa-regular fa-gif"></i> */}
-                                <span>2</span>
-                                <span>3</span>
-                                <span>4</span>
-                                <span>5</span>
-                                <span>6</span>
+                                <i className="fa-regular fa-image"></i>
+                                <i className="fa-regular fa-calendar"></i>
+                                <i className="fa-regular fa-face-smile"></i>
+                                <i className="fa-regular fa-calendar"></i>
+                                <i className="fa-solid fa-location-dot"></i>
                             </div>
                             <button>Tweet</button>
                         </div>
                     </div>
+                </div>
+
+                <div className="posts">
+                   {
+                    posts.map(post => {
+                        return(
+                            <div className="main-post" key={post.id}>
+                                <div className="profile-pic">
+                                    <img src={post.profile_pic} alt="" />
+                                </div>
+
+                                <div className="contents">
+                                    
+                                </div>
+                            </div>
+                        )
+                    })
+                   }
                 </div>
             </div>
         </>
