@@ -44,7 +44,19 @@ const Content = () => {
                                 </div>
 
                                 <div className="contents">
-                                    
+                                    <div className="head">
+                                        <h4>{post.title}</h4> <p>@{post.handle} . {post.time}</p>
+                                    </div>
+                                    <p className='desc'>{post.desc}</p>
+                                    <div className="post-img">
+                                        <img src={post.post_img} alt="" />
+                                    </div>
+                                    <div className="reactions">
+                                        <p><i className="gg-comment"></i></p>
+                                        <p><i className="fa-light fa-arrows-retweet"></i></p>
+                                        <p><i className="fa-sharp fa-light fa-heart"></i></p>
+                                        <p><i className="fa-light fa-arrow-up-from-bracket"></i></p>
+                                    </div>
                                 </div>
                             </div>
                         )
