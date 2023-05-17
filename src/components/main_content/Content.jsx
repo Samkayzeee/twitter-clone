@@ -3,6 +3,7 @@ import './Content.scss';
 import profile_pic from '../../assets/profile_pic.jpeg';
 import posts from "../../assets/data/posts.json";
 
+
 const Content = () => {
     return ( 
         <>
@@ -48,11 +49,14 @@ const Content = () => {
                                         <h4>{post.title}</h4> <p>@{post.handle} . {post.time}</p>
                                     </div>
                                     <p className='desc'>{post.desc}</p>
-                                    <div className="post-img">
-                                        <img src={post.post_img} alt="" />
-                                    </div>
+                                    {
+                                        post.post_img ? 
+                                        <div className="post-img">
+                                            <img src={post.post_img} alt="" />
+                                        </div> : 
+                                        null
+                                    }
                                     <div className="reactions">
-                                        <p><i className="gg-comment"></i></p>
                                         <p><i className="fa-light fa-arrows-retweet"></i></p>
                                         <p><i className="fa-sharp fa-light fa-heart"></i></p>
                                         <p><i className="fa-light fa-arrow-up-from-bracket"></i></p>

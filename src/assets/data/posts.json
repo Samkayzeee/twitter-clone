@@ -11,5 +11,18 @@
         "likes": 154,
         "views": "1,784",
         "id": 1
+    },
+    {
+        "title": "Jimmie Jephson",
+        "handle": "jimmiejephson",
+        "time": "10h",
+        "desc": "I can imagine why people like Tailwind, but for me to find out all the new class names rather then just write it in CSS takes soooooo long. Not yet convinced",
+        "profile_pic": "../images/posts/jimmie/jimmie_profile_pic.jpg",
+        "post_img": null,
+        "comments": 45,
+        "retweets": 1,
+        "likes": 70,
+        "views": "6143",
+        "id": 2
     }
 ]
