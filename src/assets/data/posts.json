@@ -24,5 +24,18 @@
         "likes": 70,
         "views": "6143",
         "id": 2
+    },
+    {
+        "title": "John",
+        "handle": "AdemoyeJohn",
+        "time": "14h",
+        "desc": "Is there any tech event that brings designers and developers together or should everyone just mind their business???",
+        "profile_pic": "../images/posts/john/john_profile_pic.jpg",
+        "post_img": null,
+        "comments": 34,
+        "retweets": 19,
+        "likes": 229,
+        "views": "24.2K",
+        "id": 3
     }
 ]

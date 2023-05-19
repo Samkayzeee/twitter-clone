@@ -121,6 +121,11 @@
             display: flex;
             justify-content: space-between;
             border-bottom: solid 1px rgb(223, 239, 249);
+            transition: all 0.3s ease-in-out;
+            &:hover{
+                cursor: pointer;
+                background-color: rgb(242, 242, 242);
+            }
             .profile-pic{
                 width: 10%;
                 img{

@@ -56,11 +56,11 @@ const Content = () => {
                                         </div> : 
                                         null
                                     }
-                                    <div className="reactions">
+                                    {/* <div className="reactions">
                                         <p><i className="fa-light fa-arrows-retweet"></i></p>
                                         <p><i className="fa-sharp fa-light fa-heart"></i></p>
                                         <p><i className="fa-light fa-arrow-up-from-bracket"></i></p>
-                                    </div>
+                                    </div> */}
                                 </div>
                             </div>
                         )
