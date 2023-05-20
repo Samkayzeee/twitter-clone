@@ -25,3 +25,15 @@
     }
     
 }
+
+@media screen and (max-width:1060px) {
+    .main{
+        .lefisidebar{
+            width: 10%;
+            border: solid;
+        }
+        .together{
+            width: 90%;
+        }
+    }
+}

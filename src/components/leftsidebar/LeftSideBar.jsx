@@ -12,19 +12,19 @@ export default function LeftSideBar() {
 
             <div className="links">
               <ul>
-                <li> <Link><i className="fa-solid fa-house"></i> Home </Link> </li>
-                <li> <Link><i className="fa-solid fa-hashtag"></i> Explore </Link> </li>
-                <li> <Link><i className="fa-solid fa-user-group"></i> Communities </Link> </li>
-                <li> <Link><i className="fa-regular fa-bell"></i> Notifications </Link> </li>
-                <li> <Link><i className="fa-regular fa-envelope"></i> Messages </Link> </li>
-                <li> <Link><i className="fa-regular fa-bookmark"></i> Bookmarks </Link> </li>
-                <li> <Link><i className="fa-brands fa-square-twitter"></i> Twitter Blue </Link> </li>
-                <li> <Link><i className="fa-regular fa-user"></i> Profile </Link> </li>
-                <li> <Link><i className="fa-solid fa-ellipsis"></i> More </Link> </li>
+                <li> <Link><i className="fa-solid fa-house"></i> <span>Home</span> </Link> </li>
+                <li> <Link><i className="fa-solid fa-hashtag"></i> <span>Explore</span> </Link> </li>
+                <li> <Link><i className="fa-solid fa-user-group"></i> <span>Communities</span> </Link> </li>
+                <li> <Link><i className="fa-regular fa-bell"></i> <span>Notifications</span> </Link> </li>
+                <li> <Link><i className="fa-regular fa-envelope"></i> <span>Messages</span> </Link> </li>
+                <li> <Link><i className="fa-regular fa-bookmark"></i> <span>Bookmarks</span> </Link> </li>
+                <li> <Link><i className="fa-brands fa-square-twitter"></i> <span>Twitter Blue</span> </Link> </li>
+                <li> <Link><i className="fa-regular fa-user"></i> <span>Profile</span> </Link> </li>
+                <li> <Link><i className="fa-solid fa-ellipsis"></i> <span>More </span></Link> </li>
               </ul>
             </div>
 
-            <button>Tweet</button>
+            <button><span>Tweet</span><span>+<i className="fa-solid fa-feather-pointed"></i></span></button>
 
             <div className="profile">
               <img src={profile_pic} alt="profile-pic" />
