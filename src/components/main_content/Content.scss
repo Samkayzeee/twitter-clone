@@ -169,9 +169,13 @@
                 }
                 .reactions{
                     // border: solid;
+                    margin-top: 2%;
                     p{
-                        i{
+                        font-size: 14px;
+                        img{
                             color: black;
+                            height: 14px;
+                            margin-top: 4px;
                             opacity: 0.8;
                         }
                     }

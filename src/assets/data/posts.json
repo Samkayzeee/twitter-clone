@@ -37,5 +37,31 @@
         "likes": 229,
         "views": "24.2K",
         "id": 3
+    },
+    {
+        "title": "mewtru •ᴗ•",
+        "handle": "trunarla",
+        "time": "21h",
+        "desc": "There's gotta be an easier way to check if a number is even in JavaScript 😭",
+        "profile_pic": "../images/posts/mewtru/mewtru_profile_pic.jpg",
+        "post_img": "../images/posts/mewtru/mewtru_post_img.jpg",
+        "comments": 123,
+        "retweets": 84,
+        "likes": 1215,
+        "views": "208.1K",
+        "id": 4
+    },
+    {
+        "title": "Victor",
+        "handle": "vponamariov",
+        "time": "8m",
+        "desc": "Pick your favorite 👇",
+        "profile_pic": "../images/posts/victor/victor_profile_pic.jpg",
+        "post_img": "../images/posts/victor/victor_post_img.png",
+        "comments": 12,
+        "retweets": 1,
+        "likes": 5,
+        "views": "1,024",
+        "id": 5
     }
 ]

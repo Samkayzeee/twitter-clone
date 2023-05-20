@@ -2,6 +2,7 @@ import { Link } from 'react-router-dom';
 import './Content.scss';
 import profile_pic from '../../assets/profile_pic.jpeg';
 import posts from "../../assets/data/posts.json";
+// import comment_icon from "../../assets/icons/message-square.svg";
 
 
 const Content = () => {
@@ -52,12 +53,12 @@ const Content = () => {
                                     {
                                         post.post_img ? 
                                         <div className="post-img">
-                                            <img src={post.post_img} alt="" />
+                                            <img src={post.post_img} alt="profile_pic" />
                                         </div> : 
                                         null
                                     }
                                     {/* <div className="reactions">
-                                        <p><i className="fa-light fa-arrows-retweet"></i></p>
+                                        <p><img src={comment_icon} alt="" /> {post.comments} </p>
                                         <p><i className="fa-sharp fa-light fa-heart"></i></p>
                                         <p><i className="fa-light fa-arrow-up-from-bracket"></i></p>
                                     </div> */}
