@@ -1,8 +1,8 @@
 import { Link } from 'react-router-dom';
 import './Content.scss';
+import { Icon } from '@iconify/react';
 import profile_pic from '../../assets/profile_pic.jpeg';
 import posts from "../../assets/data/posts.json";
-// import comment_icon from "../../assets/icons/message-square.svg";
 
 
 const Content = () => {
@@ -57,11 +57,14 @@ const Content = () => {
                                         </div> : 
                                         null
                                     }
-                                    {/* <div className="reactions">
-                                        <p><img src={comment_icon} alt="" /> {post.comments} </p>
-                                        <p><i className="fa-sharp fa-light fa-heart"></i></p>
-                                        <p><i className="fa-light fa-arrow-up-from-bracket"></i></p>
-                                    </div> */}
+                                    <div className="reactions">
+                                        <p><Icon icon="iconamoon:comment-thin" className='icon'/><span>{post.comments}</span></p>
+                                        <p><Icon icon="system-uicons:retweet" className='icon'/><span>{post.retweets}</span></p>
+                                        <p><Icon icon="streamline:interface-favorite-heart-reward-social-rating-media-heart-it-like-favorite-love" className='icon'/><span>{post.likes}</span></p>
+                                        <p><Icon icon="prime:align-left" rotate={3} className='icon'/> <span>{post.views}</span></p>
+                                        <p><Icon icon="uil:upload" className='icon'/></p>
+                                    
+                                    </div>
                                 </div>
                             </div>
                         )
