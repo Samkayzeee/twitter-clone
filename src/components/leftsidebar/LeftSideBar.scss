@@ -39,9 +39,6 @@
                     &:hover{
                         background-color: rgb(225, 225, 225);
                     }
-                    i{
-                        margin-right: 10px;
-                    }
                 }
                 &:first-child{
                     a{
@@ -123,15 +120,17 @@
         .links{
             text-align: center;
             ul{
+                border: solid;
                 li{
-                    margin: 15% auto;
-                    // border: solid;
+                    margin: 15% 0;
+                    padding: 0;
+
                     a{
-                        font-size: 24px;
                         padding: 0;
-                        margin: 0;
+                        padding: 13px 15px;
+                        border: solid 1px;
+                        border-radius: 0;
                         // border-radius: 50%;
-                        // border: solid 1px;
                         span{
                             display: none;
                         }

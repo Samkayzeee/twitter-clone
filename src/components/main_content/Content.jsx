@@ -58,11 +58,11 @@ const Content = () => {
                                         null
                                     }
                                     <div className="reactions">
-                                        <p><Icon icon="iconamoon:comment-thin" className='icon'/><span>{post.comments}</span></p>
-                                        <p><Icon icon="system-uicons:retweet" className='icon'/><span>{post.retweets}</span></p>
-                                        <p><Icon icon="streamline:interface-favorite-heart-reward-social-rating-media-heart-it-like-favorite-love" className='icon'/><span>{post.likes}</span></p>
-                                        <p><Icon icon="prime:align-left" rotate={3} className='icon'/> <span>{post.views}</span></p>
-                                        <p><Icon icon="uil:upload" className='icon'/></p>
+                                        <p><span><Icon icon="iconamoon:comment-thin" className='icon'/></span><span>{post.comments}</span></p>
+                                        <p><span><Icon icon="system-uicons:retweet" className='icon'/></span><span>{post.retweets}</span></p>
+                                        <p><span><Icon icon="streamline:interface-favorite-heart-reward-social-rating-media-heart-it-like-favorite-love" className='icon'/></span><span>{post.likes}</span></p>
+                                        <p><span><Icon icon="prime:align-left" rotate={3} className='icon'/></span><span>{post.views}</span></p>
+                                        <p><span><Icon icon="uil:upload" className='icon'/></span></p>
                                     
                                     </div>
                                 </div>

@@ -173,13 +173,28 @@
                     justify-content: space-between;
                     margin-top: 2%;
                     p{
+                        // border: solid 1px;
                         .icon{
-                            margin-right: 15px;
                             font-weight: 600;
                             font-size: 16px;
                         }
                         span{
+                            &:first-child{
+                                border-radius: 50%;
+                                padding: 10px 12px;
+                                display: inline-block;
+                                margin-top: 5px;
+                                transition: all 0.3s ease-in-out;
+                                &:hover{
+                                    background-color: rgb(151, 204, 237);
+                                }
+                            }
                             font-size: 12px;
+
+                            &:last-child{
+                                display: inline-block;
+                                transform: translateY(-3px);
+                            }
                         }
                     }
                 }

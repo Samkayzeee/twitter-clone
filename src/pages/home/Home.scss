@@ -37,3 +37,15 @@
         }
     }
 }
+@media screen and (max-width:1018px) {
+    .main{
+        .together{
+            .content{
+                width: 100%;
+            }
+            .rightsidebar{
+                display: none;
+            }
+        }
+    }
+}
