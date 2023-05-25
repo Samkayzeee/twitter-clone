@@ -29,7 +29,7 @@
                 a{
                     display: inline-block;
                     padding: 5%;
-                    border: solid;
+                    // border: solid;
                     font-size: 20px;
                     text-decoration: none;
                     border-radius: 30px;
@@ -120,17 +120,15 @@
         .links{
             text-align: center;
             ul{
-                border: solid;
                 li{
-                    margin: 15% 0;
+                    margin: 10% 0;
                     padding: 0;
 
                     a{
                         padding: 0;
-                        padding: 13px 15px;
-                        border: solid 1px;
-                        border-radius: 0;
-                        // border-radius: 50%;
+                        font-size: 18px;
+                        padding: 14px 15px;
+                        border-radius: 50%;
                         span{
                             display: none;
                         }
@@ -161,6 +159,7 @@
             width: -moz-fit-content;
             width: fit-content;
             margin: auto;
+            padding: 10px;
             div{
                 display: none;
             }
