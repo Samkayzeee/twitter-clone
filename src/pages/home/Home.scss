@@ -52,3 +52,14 @@
         }
     }
 }
+
+@media screen and (max-width:500px) {
+    .main{
+        .lefisidebar{
+            display: none;
+        }
+        .together{
+            width: 100%;
+        }
+    }
+}
