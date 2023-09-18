@@ -176,16 +176,16 @@
                         // border: solid 1px;   
                         span{
                             &:first-child{
-                                font-weight: 600;
-                                font-size: 16px;
+                                font-weight: 400;
+                                font-size: 15px;
                                 border-radius: 50%;
-                                padding: 10px 12px;
+                                padding: 10px 10px 6px 10px;
                                 display: inline-block;
                                 // margin-top: 5px;
                                 // border: solid;
                                 transition: all 0.3s ease-in-out;
                                 &:hover{
-                                    background-color: rgb(151, 204, 237);
+                                    background-color: rgb(151, 204, 237, 0.15);
                                 }
                             }
                             font-size: 12px;
